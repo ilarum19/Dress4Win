@@ -10,10 +10,10 @@ Credits & Source from: https://github.com/sendmail2krrish/eCommerce-site-using-N
 3. Comment bind-address configuration using <b> vi /etc/mysql/mysql.conf.d/mysqld.cnf </b> and save the configuration using ESC followed :wq! <br/>
 4. Restart MySQL Service using <b>systemctl restart mysql</b> <br/>
 5. Logging to mysql using <b>mysql -h 127.0.0.1 -u root -p</b>  <br/>
-6. Create a database named eCommerce using <b>CREATE DATABASE eCommerce </b> <br/>
+6. Create a database named eCommerce using <b>CREATE DATABASE eCommerce; </b> <br/>
 7. Run this command <b> GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'%' IDENTIFIED BY 'P@ssw0rd2020';</b> to allow mysql to be accessed from app-server <br/>
 7. Exit mysql session <br/>
-8. Change directory to home directory using <b>cd ~</b> and run <b> git clone https://github.com/learngcpwithmahesh/Dress4Win.git </b>  <br/>
+8. Change directory to home directory using <b>cd ~</b> and run <b> git clone https://github.com/ilarum19/Dress4Win.git </b>  <br/>
 9. Change directory to Dress4Win/sql <br/>
 10. Create the table schema using <b> mysql -h 127.0.0.1 -u root -p < ecommerce.sql </b> <br/>
  
@@ -26,7 +26,7 @@ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh <br/>
 bash nodesource_setup.sh <br/>
 apt install -y nodejs <br/>
 npm install -g forever <br/>
-git clone https://github.com/learngcpwithmahesh/Dress4Win.git <br/>
+git clone https://github.com/ilarum19/Dress4Win.git <br/>
 cd Dress4Win <br/>
 npm install <br/>
 </b>

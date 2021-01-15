@@ -15,7 +15,7 @@ Credits & Source from: https://github.com/sendmail2krrish/eCommerce-site-using-N
 7. Exit mysql session <br/>
 8. Change directory to home directory using <b>cd ~</b> and run <b> git clone https://github.com/ilarum19/Dress4Win.git </b>  <br/>
 9. Change directory to Dress4Win/sql <br/>
-10. Create the table schema using <b> mysql -h 127.0.0.1 -u root -p < ecommerce.sql </b> <br/>
+10. Create the table schema using <b> mysql -h 127.0.0.1 -u root -p eCommerce < ecommerce.sql </b> <br/>
  
 ### Launching app-server
 1. Provision a Google Compute Engine (GCE) with below startup script <br/>
